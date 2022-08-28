@@ -12,6 +12,7 @@ struct LinkedList
     int size = 0;
     Node *head = NULL;
     Node *q;
+    
     void insert(int a[],int sizea)
     {
         for(int i=0;i<sizea;i++)
@@ -95,3 +96,4 @@ int main(){
 	l1.insert(a,arr_size);
 	l1.print();	
 }
+
